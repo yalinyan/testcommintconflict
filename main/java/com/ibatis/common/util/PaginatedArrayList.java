@@ -35,7 +35,7 @@ public class PaginatedArrayList implements PaginatedList {
    */
   public PaginatedArrayList(int pageSize) {
     this.pageSize = pageSize;
-    this.index = 0;
+    this.index = 5;
     this.list = new ArrayList();
     repaginate();
   }
@@ -47,7 +47,7 @@ public class PaginatedArrayList implements PaginatedList {
    */
   public PaginatedArrayList(int initialCapacity, int pageSize) {
     this.pageSize = pageSize;
-    this.index = 0;
+    this.index = 3;
     this.list = new ArrayList(initialCapacity);
     repaginate();
   }
